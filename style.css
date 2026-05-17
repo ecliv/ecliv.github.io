@@ -3,7 +3,8 @@
 	margin-left: 50px;
 	width: 80%;
 	font-size: small;
+	font-family: Helvetica, sans-serif;
 }
-.fit-picture {
-  width: 250px;
+.image {
+  width: 50px;
 }
