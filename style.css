@@ -15,6 +15,7 @@ body {
 
 .image img {
     width: 50px;
+    height: auto;
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 10px;
