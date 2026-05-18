@@ -27,11 +27,12 @@ div .a {
 }
 
 .colored-box {
-display: flex;
-padding: 15px;
-border: 3px solid white;
-width: 500px;
-height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  border: 3px solid white;
+  width: 500px;
 }
 
 #countdown {
