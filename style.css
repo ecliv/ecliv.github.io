@@ -1,33 +1,46 @@
 body {
     background-color: #000000;
     color: white;
-    font-family: Serif;
-}
-head {
-	background-color: #000000;
-    color: white;
-    font-family: Serif;
-    font-weight: bold;
+    font-family: serif;
 }
 
-.bold {
-    font-weight: bold;
+h1 {
+    font-size: 48px;
+    wont-weight: normal;
+    font-size:larger;
 }
 
+div .a {
+    text-align: center;
 }
+
 .content {
     margin-top: 100px;
     margin-left: 50px;
     width: 80%;
-    background-color: #000000;
-    color: white;
     font-size: small;
 }
 
-.image img {
-    width: 150px;
-    height: auto;
+img {
     margin-left: 50px;
     margin-top: 20px;
-    border-radius: 10px;
+}
+
+#countdown {
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+
+  text-align: center;
 }
