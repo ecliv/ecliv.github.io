@@ -5,9 +5,13 @@ body {
 }
 
 h1 {
-    font-size: 48px;
-    wont-weight: normal;
+    font-weight: normal;
     font-size:larger;
+}
+
+h2 {
+    font-weight: normal;
+    font-size:large;
 }
 
 div .a {
@@ -28,11 +32,15 @@ div .a {
 
 .colored-box {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 15px;
   border: 3px solid white;
   width: 500px;
+}
+
+.colored-box2 {
+  padding: 15px;
+  border: 3px solid white;
+  width: 100px;
 }
 
 #countdown {
@@ -48,8 +56,8 @@ div .a {
   display: flex;
   flex-direction: column;
 
-  justify-content: center; /* vertical center */
-  align-items: center;     /* horizontal center */
+  justify-content: center;
+  align-items: center;
 
   text-align: center;
 }
