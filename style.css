@@ -1,26 +1,10 @@
 body {
-    background-color: #000000;
-    color: white;
+    background-color:"mintcream;";
+    color: dimgrey;
     font-family: serif;
-}
 
-h1 {
-    font-weight: normal;
-    font-size:larger;
-}
-
-h2 {
-    font-weight: normal;
-    font-size:large;
-}
-
-div .a {
-    text-align: center;
-}
-
-.inline {
-    display: flex;
-    align-items: right;
+p, h1 {
+    margin: 0px;
 }
 
 .content {
@@ -33,13 +17,13 @@ div .a {
 .colored-box {
   display: flex;
   padding: 15px;
-  border: 3px solid white;
+  border: 3px dimgrey;
   width: 500px;
 }
 
 .colored-box2 {
   padding: 15px;
-  border: 3px solid white;
+  border: 3px dimgrey;
   width: 100px;
 }
 
@@ -50,14 +34,7 @@ div .a {
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
