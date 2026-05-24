@@ -1,40 +1,58 @@
 body {
-    background-color:"mintcream;";
+    background-color: white;
     color: dimgrey;
     font-family: serif;
-
-p, h1 {
-    margin: 0px;
+    margin: 0;
+    padding: 40px;
 }
 
-.content {
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 80%;
-    font-size: small;
+a {
+    color: green;
 }
 
-.colored-box {
-  display: flex;
-  padding: 15px;
-  border: 3px dimgrey;
-  width: 500px;
+.site-grid {
+    display: grid;
+    gap: 5px;
+    max-width: 500px;
+    margin: auto;
 }
 
-.colored-box2 {
-  padding: 15px;
-  border: 3px dimgrey;
-  width: 100px;
+.header {
+    display: grid;
+    justify-content: right;
 }
 
-#countdown {
-    font-size: 48px;
-    font-weight: normal;
-    text-align: center;
+.intro {
+    display: grid;
+    gap: 10px;
+    text-align: right;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.quote-grid {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.quote-grid blockquote {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.updates {
+    border: 3px dotted dimgrey;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.construction {
+    display: grid;
+    justify-content: center;
+}
+
+.label {
+    color: green;
+    font-family: monospace;
 }
